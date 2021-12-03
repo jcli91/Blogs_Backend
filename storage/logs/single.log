@@ -1,0 +1,23 @@
+2021-12-03 19:19:39 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-03 19:19:39 - INFO - "GET /static/style.css HTTP/1.1" 200 648
+2021-12-03 19:52:04 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-03 19:52:04 - INFO - "GET /static/style.css HTTP/1.1" 304 0
+2021-12-03 19:52:04 - WARNING - "GET /blogs HTTP/1.1" 404 1536
+2021-12-03 19:56:01 - ERROR - AttributeError in /Users/kyongli/development/seir_penguin/masonite_blog/backend/app/http/controllers/BlogController.py on line 15
+2021-12-03 19:56:01 - ERROR - "GET /blogs HTTP/1.1" 500 1047827
+2021-12-03 19:57:28 - ERROR - AttributeError in 0 on line 0
+2021-12-03 19:57:28 - ERROR - "GET /blogs HTTP/1.1" 500 1042054
+2021-12-03 19:57:52 - ERROR - AttributeError in /Users/kyongli/development/seir_penguin/masonite_blog/backend/app/http/controllers/BlogController.py on line 15
+2021-12-03 19:57:52 - ERROR - "GET /blogs HTTP/1.1" 500 1047827
+2021-12-03 19:58:19 - ERROR - ResponseError in 0 on line 0
+2021-12-03 19:59:05 - ERROR - ResponseError in 0 on line 0
+2021-12-03 20:01:11 - INFO - "GET /blogs HTTP/1.1" 200 417
+2021-12-03 20:01:11 - INFO - "GET /blogs/1 HTTP/1.1" 200 137
+2021-12-03 20:04:17 - WARNING - "POST /blogs HTTP/1.1" 405 1554
+2021-12-03 20:06:02 - INFO - "POST /blogs HTTP/1.1" 200 137
+2021-12-03 20:06:02 - INFO - "GET /blogs HTTP/1.1" 200 556
+2021-12-03 20:08:33 - WARNING - "PUT /blogs HTTP/1.1" 405 1554
+2021-12-03 20:08:33 - INFO - "PUT /blogs/4 HTTP/1.1" 200 139
+2021-12-03 20:08:33 - INFO - "GET /blogs HTTP/1.1" 200 556
+2021-12-03 20:10:39 - INFO - "DELETE /blogs/4 HTTP/1.1" 200 139
+2021-12-03 20:10:39 - INFO - "GET /blogs HTTP/1.1" 200 417

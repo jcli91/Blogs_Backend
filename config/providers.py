@@ -32,6 +32,7 @@ learn more more about Service Providers in our documentation
 PROVIDERS = [
     # Framework Providers
     AppProvider,
+    CorsProvider,
     RequestHelpersProvider,
     CsrfProvider,
     AuthenticationProvider,
@@ -41,7 +42,6 @@ PROVIDERS = [
     WhitenoiseProvider,
     ViewProvider,
     # Optional Framework Providers
-    CorsProvider,
     MailProvider,
     UploadProvider,
     QueueProvider,

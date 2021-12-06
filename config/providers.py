@@ -2,6 +2,7 @@
 
 from masonite.providers import (
     AppProvider,
+    CorsProvider,
     RequestHelpersProvider,
     AuthenticationProvider,
     BroadcastProvider,
@@ -15,8 +16,7 @@ from masonite.providers import (
     StatusCodeProvider,
     UploadProvider,
     ViewProvider,
-    WhitenoiseProvider,
-    CorsProvider
+    WhitenoiseProvider
 )
 from masonite.logging.providers import LoggingProvider
 from masonite.validation.providers import ValidationProvider

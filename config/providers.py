@@ -41,6 +41,7 @@ PROVIDERS = [
     WhitenoiseProvider,
     ViewProvider,
     # Optional Framework Providers
+    CorsProvider,
     MailProvider,
     UploadProvider,
     QueueProvider,
@@ -48,7 +49,6 @@ PROVIDERS = [
     BroadcastProvider,
     HelpersProvider,
     ValidationProvider,
-    CorsProvider,
     # Third Party Providers
     LoggingProvider,
     ValidationProvider,
